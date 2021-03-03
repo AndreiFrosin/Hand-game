@@ -2,13 +2,13 @@
 
 
 # Game board
-board = ["-", "-", "-", 
-         "-", "-", "-", 
+board = ["-", "-", "-",
+         "-", "-", "-",
          "-", "-", "-",]
 
 # If game is still going
 game_still_going = True
-
+ 
 # Who won? Or tie?
 winner = None
 
@@ -28,7 +28,7 @@ def play_game():
     display_board()
 
     while game_still_going:
-        
+
         #handle a single turn of arbitrary player
         print("Current player is: "+ current_player)
         handle_turn(current_player)
