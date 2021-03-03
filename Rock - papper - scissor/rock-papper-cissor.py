@@ -1,17 +1,17 @@
 from random import *
 
 keep_playing = True
-while keep_playing: 
+while keep_playing:
 
     print('-'*10)
-    player_choice = input("Choose [rock, papper, cissor]: ")
-    basic_choice = ["rock", "papper", "cissor"]
+    player_choice = input("Choose [rock, papper, scissor]: ")
+    basic_choice = ["rock", "papper", "scissor"]
     list_choice = randint(0,2)
     computer_choice = basic_choice[list_choice]
 
-    win1= player_choice == "rock" and computer_choice == "cissor"
+    win1= player_choice == "rock" and computer_choice == "scissor"
     win2= player_choice == "papper" and computer_choice == "rock"
-    win3= player_choice == "cissor" and computer_choice == " papper"
+    win3= player_choice == "scissor" and computer_choice == " papper"
 
     tie= player_choice == computer_choice
 
