@@ -1,2 +1,1 @@
-# Hand-game
-Rock-paper-scissors
+# Python exercises
