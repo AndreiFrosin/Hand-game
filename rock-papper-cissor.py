@@ -1,7 +1,7 @@
 from random import *
 
 keep_playing = True
-while keep_playing:
+while keep_playing: 
 
     print('-'*10)
     player_choice = input("Choose [rock, papper, cissor]: ")
