@@ -9,7 +9,7 @@ linkElems = soup.select('div.card-item > div > div > div.card-section-mid > h2 >
 
 
 #for link in linkElems:
-#    newlink = link.get('href')
+#  newlink = link.get('href')
 
 numOpen = min(5,len(linkElems))
 for i in range(numOpen):
