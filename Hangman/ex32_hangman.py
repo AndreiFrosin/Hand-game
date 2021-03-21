@@ -1,8 +1,4 @@
 #HANGMAN
-#3 difficulty levels: 1-easy (<4 letters), 2-medium(4-6 letters), 3-hard(7+ letters)
-#player has 6 guesses(head, body, 2 arms, 2 legs)
-#
-
 import random
 
 
