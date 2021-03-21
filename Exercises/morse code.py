@@ -1,5 +1,4 @@
 #Morse code
-#https://edabit.com/challenge/5bYXQfpyoithnQisa
 
 char_to_dots = {
   'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',

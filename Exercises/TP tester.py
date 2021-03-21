@@ -1,5 +1,3 @@
-#Can you spare a square?
-#https://edabit.com/challenge/joCBaJztZrdxi9HjR
 
 people = int(input("Number of people in the household: "))
 tp = int(input("Number of rolls: "))
